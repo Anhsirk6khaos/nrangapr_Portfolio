@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+    <header class="p-5 bg-black">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Cybersecurity Expert</h1>
+            <nav id="navbar" class="hidden md:flex space-x-4">
+                <a href="#about" class="hover:text-blue-400">About</a>
+                <a href="#work" class="hover:text-blue-400">My Work</a>
+                <a href="#contact" class="hover:text-blue-400">Contact</a>
+            </nav>
+            <button id="menuBtn" class="md:hidden text-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- Main content sections omitted for brevity -->
+    <footer class="text-center p-5 bg-black mt-10">
+        © 2024 Cybersecurity Portfolio
+    </footer>
+</body>
+</html>
